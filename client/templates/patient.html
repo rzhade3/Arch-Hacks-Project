@@ -1,0 +1,20 @@
+<template name="patient">
+    <div class="container">
+        <header>
+            <h1> Hello </h1>
+            <h1> {{name}} </h1>
+            <h3> {{age}} </h3>
+            <h3> {{sex}} </h3>
+
+            <form class="addChecklist">
+                <input type="text" name="name" required="true" placeholder="Name" />
+                <input type="text" name="symptoms" required="true" placeholder="Symptoms" />
+                <input type="text" name="diagnosis" required="true" placeholder="Diagnosis" />
+                <input type="submit" value="Add Checklist"/>
+            </form>
+        </header>
+
+        <a href="/signup">Back</a>
+
+    </div>
+</template>

@@ -1,0 +1,15 @@
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome</h1>
+        </header>
+
+        <ul>
+            {{#each checklists}}
+                {{> checklist}}
+            {{/each}}
+        </ul>
+
+        <a href="/signup"> Back </a>
+    </div>
+</body>

@@ -1,0 +1,8 @@
+
+<template name="checklist">
+    <li class="{{#if checked}} checked {{/if}}">
+        <button class="delete">&times;</button>
+        <input type="checkbox" checked="{{checked}}" class="toggle-checked" />
+        <span class="text">{{name}}: {{symptoms}}<br>{{diagnosis}}</span>
+    </li>
+</template>
