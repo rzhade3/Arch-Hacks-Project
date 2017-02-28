@@ -1,4 +1,4 @@
-<body>
+<template name="doctor">
     <div class="container">
         <header>
             <h1>Welcome</h1>
@@ -6,10 +6,10 @@
 
         <ul>
             {{#each checklists}}
-                {{> checklist}}
+                {{> checklist this}}
             {{/each}}
         </ul>
 
         <a href="/signup"> Back </a>
     </div>
-</body>
+</template>

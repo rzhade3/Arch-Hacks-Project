@@ -4,7 +4,7 @@ require('../templates/doctor.html');
 
 import { Checklists } from '../../imports/checklists.js';
 
-Template.body.helpers({
+Template.doctor.helpers({
   checklists() {
     return Checklists.find();
   },
